@@ -6,6 +6,28 @@
     background-color: rgb(74, 74, 76);
 }
 
+body {
+    margin: 0%;
+}
+
+main {
+    margin: 0% 2%;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(123, 202, 242);
+    margin: 1% 12.5%;
+    padding: 0em;
+    border: 0.1em solid hsl(9, 100%, 64%);
+    border-radius: 50%;
+}
+
+h2, h3, h4 {
+    color: rgb(123, 202, 242);
+    text-align: center;
+}
+
 /* footer styling */
 
 footer {
