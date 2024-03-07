@@ -25,7 +25,7 @@ h1 {
 }
 
 h2, h3, h4 {
-    font-size: calc(00.75em + 1vw);
+    font-size: calc(0.75em + 1vw);
     color: rgb(123, 202, 242);
     text-align: center;
 }
@@ -50,7 +50,6 @@ h2, h3, h4 {
     display: block;
     text-align: center;
 }
-
 
 /* prettier with a border */
 .navbar a:hover {
@@ -298,7 +297,6 @@ footer a {
 
 .contact-section-text {
     font-size: calc(0.5em + 1vw);
-    font-style: none;
     font-weight: bold;
     text-align: center;
     text-decoration: none;
@@ -309,8 +307,6 @@ footer a {
     font-weight: bold;
     color: rgb(123, 202, 242);
 }
-
-/* Make images max-width for screens with a width of 1920p */
 
 /* media query for screens with a max width of 363px */
 @media only screen and (max-width: 363px) {
@@ -332,7 +328,6 @@ footer a {
     
     .contact-section-text {
         font-size: calc(0.75em + 1vw);
-        font-style: none;
         font-weight: bold;
         text-align: center;
         text-decoration: none;
