@@ -257,6 +257,17 @@ figcaption {
     display: block;
 }
 
+.input-styles {
+    /* input field font-color and weight */
+    font-size: calc(0.75em + 1vw);
+    color: tomato;
+    font-weight: bold;
+    /* background color for all inputs */
+    background-color: aliceblue;
+}
+
+
+/* single option styles */
 .feedback-form-option-styling {
     color: tomato;
     font-weight: bold;

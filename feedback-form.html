@@ -60,10 +60,10 @@
                 aria-labelledby="fill-out-form-heading">
                 <h3 id="fill-out-form-heading">Please Complete the Following Form:</h3>
                 <label class="feedback-form-label-styling" for="name">Name (optional):</label> <br>
-                <input id="name" type="text" placeholder="Your Name"> <br><br>
+                <input id="name" class="input-styles" type="text" placeholder="Your Name"> <br><br>
 
                 <label class="feedback-form-label-styling" for="email">E-Mail (optional):</label> <br>
-                <input id="email" type="email" placeholder="Your E-Mail"> <br><br>
+                <input id="email" class="input-styles" type="email" placeholder="Your E-Mail"> <br><br>
 
                 <label class="feedback-form-label-styling" for="feedback-options">Feedback Category:</label><br>
                 <select name="feedback-options" id="feedback-options">
@@ -75,23 +75,25 @@
                 <br><br>
 
                 <label class="feedback-form-label-styling" for="comment">Your Feedback Below:</label> <br>
-                <textarea id="comment" cols="30" rows="5" required></textarea>
+                <textarea id="comment" class="input-styles" cols="30" rows="5" required></textarea>
 
                 <br><br>
 
-                <label class="feedback-form-label-styling" for="file">Upload Image/Screenshot: <br> (.png / .jpeg / .jpg
-                    &
-                    .bmp)</label> <br>
+                <label class="feedback-form-label-styling" for="file">Upload Image/Screenshot: <br> (.png / .jpeg / .jpg & .bmp)</label>
+                
+                <br>
 
                 <br>
 
                 <input type="file" id="file" accept="image/png, image/jpeg, image/jpg, image/bmp">
 
-                <br><br>
+                <br>
+                
+                <br>
 
-                <input type="reset" value="Reset">
+                <input type="reset" class="input-styles" value="Reset">
                 <br><br>
-                <input type="submit" value="Submit">
+                <input type="submit" class="input-styles " value="Submit">
             </form>
         </section>
     </main>
