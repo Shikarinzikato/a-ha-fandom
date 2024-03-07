@@ -19,20 +19,97 @@
 </head>
 
 <body>
+    <!-- Header, i.e., content that appears on every single page, like the navbar below -->
+    <header>
+        <h1><b>a-ha</b><br>Fandom</h1>
+        <nav class="navbar" aria-label="Main navigation menu with options: Home, About, Gallery, Feedback Form">
+            <ul>
+                <li><a href="index.html" id="active-nav-section">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="feedback-form.html">Feedback Form</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="feedback-section" aria-labelledby="feedback-heading">
+            <h2 id="feedback-heading">Feedback Form</h2>
+            <article aria-labelledby="feedback-description-heading">
+                <h3 id="feedback-description-heading">Your Feedback Matters:</h3>
+                <p>
+                    I invite you to share your thoughts and experiences on my a-ha band fandom site! Your feedback is
+                    invaluable
+                    in helping me create a vibrant and engaging community for all a-ha fans. Whether it's a memorable
+                    concert
+                    experience, a favorite song, or an interesting piece of trivia about the band, I'd love to hear from
+                    you.
+                    Please remember, your contribution is entirely optional and can be made anonymously if you prefer.
+
+                    <br><br>
+
+                    If you're interested in contributing more actively, feel free to email me and ask for access.
+
+                    <br><br>
+
+                    Every voice matters and helps to enrich our fandom. Thank you for considering sharing your a-ha
+                    moments with
+                    us!
+                </p>
+            </article>
+            <form id="feedback-form" action="thank-you-for-feedback.html" method="get"
+                aria-labelledby="fill-out-form-heading">
+                <h3 id="fill-out-form-heading">Please Complete the Following Form:</h3>
+                <label class="feedback-form-label-styling" for="name">Name (optional):</label> <br>
+                <input id="name" type="text" placeholder="Your Name"> <br><br>
+
+                <label class="feedback-form-label-styling" for="email">E-Mail (optional):</label> <br>
+                <input id="email" type="email" placeholder="Your E-Mail"> <br><br>
+
+                <label class="feedback-form-label-styling" for="feedback-options">Feedback Category:</label><br>
+                <select name="feedback-options" id="feedback-options">
+                    <option class="feedback-form-option-styling" value="site-functionality">Site Functionality</option>
+                    <option class="feedback-form-option-styling" value="event-inaccurracy">Event Inaccuracy</option>
+                    <option class="feedback-form-option-styling" value="suggestions">Suggestion</option>
+                </select>
+
+                <br><br>
+
+                <label class="feedback-form-label-styling" for="comment">Your Feedback Below:</label> <br>
+                <textarea id="comment" cols="30" rows="5" required></textarea>
+
+                <br><br>
+
+                <label class="feedback-form-label-styling" for="file">Upload Image/Screenshot: <br> (.png / .jpeg / .jpg
+                    &
+                    .bmp)</label> <br>
+
+                <br>
+
+                <input type="file" id="file" accept="image/png, image/jpeg, image/jpg, image/bmp">
+
+                <br><br>
+
+                <input type="reset" value="Reset">
+                <br><br>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
 
 </body>
 
 <hr>
 
 <footer>
-    <h2>Contact</h2>
-    <address id="contact-section-text">
-        Send us an E-Mail:
+    <h2 id="contact">Contact</h2>
+    <address class="contact-section-text">
+        <p class="text-align-center">Send us an E-Mail:</p>
         <a aria-label="Opens default email app, to compose a new message."
             href="mailto:AhaFanFeedback@fandome.com">AhaFanFeedback@fandome.com</a><br>
-        or fill out <a aria-label="Takes user to our feedback form" href="feedback-form.html">our feedback form</a>.
+        <p class="text-align-center">or fill out</p> <a aria-label="Takes user to our feedback form"
+            href="feedback-form.html">our feedback form</a>.
     </address>
-    <p>
+    <p class="text-align-center">
         Author:<br>
         <span class="footer-section-styling-author">Ramzan Derbishev</span>
         <br>

@@ -145,16 +145,6 @@ h2, h3, h4 {
     text-align: center;
 }
 
-#take-on-me-youtube-link {
-    color: tomato;
-    font-size: calc(0.5em + 1vw);
-    padding: 1em 0em;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    text-align: center;
-    text-decoration: none;
-}
-
 #a-ha-video {
     max-width: 90vw;
     border-radius: 5%;
@@ -171,14 +161,14 @@ a:visited {
 }
 
 p {
-    font-size: calc(0.5em + 1vw);
+    font-size: calc(0.75em + 1vw);
     color: aliceblue;
     line-height: 1.5em;
     text-align: justify;
 }
 
 .text-align-center {
-    font-size: calc(0.5em + 1vw);
+    font-size: calc(0.75em + 1vw);
     text-align: center;
 }
 
@@ -191,14 +181,15 @@ p {
 }
 
 figcaption {
-    font-size: calc(0.5em + 1vw);
+    font-size: calc(0.75em + 1vw);
     font-weight: bold;
     margin-top: 1%;
     text-align: center;
     color: tomato;
 }
 
-figcaption a {
+/* unique fig style for a-ha-video */
+#take-on-me-youtube-link {
     color: tomato;
 }
 
@@ -227,7 +218,7 @@ figcaption a {
 }
 
 #world-tour-ol li {
-    font-size: calc(0.5em + 1vw);
+    font-size: calc(0.75em + 1vw);
     color: aliceblue;
     margin-bottom: calc(1em + 1vw);
     font-weight: bold;
@@ -247,7 +238,40 @@ figcaption a {
     min-width: 75%;
     max-width: 95%;
     border-radius: 7.5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+/* feedback-system-related styles */
+
+#feedback-form {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.feedback-form-label-styling {
+    text-align: center;
+    color: tomato;
+    font-weight: bold;
+    display: block;
+}
+
+.feedback-form-option-styling {
+    color: tomato;
+    font-weight: bold;
+    background-color: bisque;
+}
+
+#feedback-options {
+    background-color: aliceblue;
+    width: 100%;
+}
+
+input[type="text"], input[type="email"], textarea, input[type="file"] {
+    width: 100%;
+}
+
 /* footer styles */
 
 footer {
@@ -276,7 +300,48 @@ footer a {
 
 /* Make images max-width for screens with a width of 1920p */
 
+@media screen {
+    
+}
+
 #a-ha-video {
     max-width: 90vw;
     border-radius: 5%;
+}
+
+/* media query for screens with a max width of 363px */
+@media only screen and (max-width: 363px) {
+    .navbar ul {
+        /* original value = font-size: calc(0.75em + 1vw) */
+        font-size: calc(0.5em + 1vw);
+    }
+
+    footer {
+        font-size: calc(0.75em + 1vw);
+        margin: calc(1em + 1vw);
+        text-align: center;
+    }
+    
+    footer a {
+        color: rgb(123, 202, 242);
+        text-decoration: none;
+    }
+    
+    .contact-section-text {
+        font-size: calc(0.75em + 1vw);
+        font-style: none;
+        font-weight: bold;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .text-align-center {
+        font-size: calc(0.75em + 1vw);
+    }
+    
+    .footer-section-styling-author {
+        font-size: calc(0.75em + 1vw);
+        font-weight: bold;
+        color: rgb(123, 202, 242);
+    }
 }
