@@ -240,6 +240,14 @@ figcaption a {
 .world-tour-li-list-style-none {
     list-style: none;
 }
+
+/* only used in gallery.html */
+
+.gallery {
+    min-width: 75%;
+    max-width: 95%;
+    border-radius: 7.5%;
+}
 /* footer styles */
 
 footer {
