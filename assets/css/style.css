@@ -178,6 +178,7 @@ p {
 }
 
 .text-align-center {
+    font-size: calc(0.5em + 1vw);
     text-align: center;
 }
 
@@ -226,6 +227,7 @@ figcaption a {
 }
 
 #world-tour-ol li {
+    font-size: calc(0.5em + 1vw);
     color: aliceblue;
     margin-bottom: calc(1em + 1vw);
     font-weight: bold;
@@ -250,14 +252,16 @@ footer a {
     text-decoration: none;
 }
 
-#contact-section-text {
-    font-size: 1em;
+.contact-section-text {
+    font-size: calc(0.5em + 1vw);
+    font-style: none;
     font-weight: bold;
     text-align: center;
     text-decoration: none;
 }
 
 .footer-section-styling-author {
+    font-size: calc(0.5em + 1vw);
     font-weight: bold;
     color: rgb(123, 202, 242);
 }
