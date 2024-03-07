@@ -54,7 +54,8 @@ h2, h3, h4 {
 /* prettier with a border */
 .navbar a:hover {
     background-color: rgb(26, 26, 26);
-    border-radius: 25%;
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius: 25%;
 }
 
 .navbar li {
@@ -108,12 +109,11 @@ h2, h3, h4 {
 }
 
 .dropdown:hover button {
-    background-color: hsla(0, 0%, 25%, 0.486);
-    color: black;
+    background-color: rgb(97, 97, 97);
 }
 
 .dropdown a:hover {
-    background-color: black;
+    background-color: rgb(97, 97, 97);
 }
 
 /* main section styles */

@@ -14,25 +14,57 @@
     <meta name="author" content="Ramzan Derbishev (aka Shikarinzikato)">
 
     <title>a-ha Fandom</title>
-    <link rel="icon" type="image/x-icon" href="assets/images-videos/a-ha-icon.png">
+    <link rel="icon" type="image/x-icon" href="assets/images-videos/icon-512.png">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
+    <!-- Header, i.e., content that appears on every single page, like the navbar below -->
+    <header>
+        <h1><b>a-ha</b><br>Fandom</h1>
+        <nav class="navbar" aria-label="Main navigation menu with options: Home, About, Gallery, Feedback Form">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" id="active-nav-section">About</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="feedback-form.html">Feedback Form</a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <main>
+        <section id="website-purpose" aria-labelledby="website-purpose-heading">
+            <h2 id="website-purpose-heading">Why The Website?</h2>
+            <article aria-labelledby="website-purpose-description-heading">
+                <h3 id="website-purpose-description-heading">A Tribute to a-ha: The Why:</h3>
+                <p class="p-tablet-size-adjust-about">
+                    As an ardent a-ha enthusiast and a budding Full-Stack Developer, I've put together this website as a
+                    tribute
+                    to the band that has inspired me so much. My aim was to create a hub where fans like us could delve
+                    into the
+                    fascinating world of a-ha, exploring everything from the individual journeys of the band members to
+                    their
+                    incredible achievements as a trio. This website is a reflection of my deep respect for a-ha and my
+                    dedication to my own journey in development.
+                    So, go ahead, dive in and enjoy the exploration!
+                </p>
+            </article>
+        </section>
+    </main>
 </body>
 
 <hr>
 
 <footer>
-    <h2>Contact</h2>
-    <address id="contact-section-text">
-        Send us an E-Mail:
+    <h2 id="contact">Contact</h2>
+    <address class="contact-section-text">
+        <p class="text-align-center">Send us an E-Mail:</p>
         <a aria-label="Opens default email app, to compose a new message."
             href="mailto:AhaFanFeedback@fandome.com">AhaFanFeedback@fandome.com</a><br>
-        or fill out <a aria-label="Takes user to our feedback form" href="feedback-form.html">our feedback form</a>.
+        <p class="text-align-center">or fill out</p> <a aria-label="Takes user to our feedback form"
+            href="feedback-form.html">our feedback form</a>.
     </address>
-    <p>
+    <p class="text-align-center">
         Author:<br>
         <span class="footer-section-styling-author">Ramzan Derbishev</span>
         <br>
