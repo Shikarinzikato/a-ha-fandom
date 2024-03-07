@@ -11,21 +11,173 @@ body {
 }
 
 main {
-    margin: 0% 2%;
+    margin: 0% 5%;
 }
 
 h1 {
     text-align: center;
     color: rgb(123, 202, 242);
-    margin: 1% 12.5%;
-    padding: 0em;
-    border: 0.1em solid hsl(9, 100%, 64%);
+    margin: 2% 12.5%;
+    padding: 5%;
+    border: 0.1em solid rgb(123, 202, 242);
     border-radius: 50%;
+    font-size: calc(1em + 1vw);
 }
 
 h2, h3, h4 {
     color: rgb(123, 202, 242);
     text-align: center;
+}
+
+/* navbar & dropdown styles */
+
+#active-nav-section {
+    border-bottom: 0.25em solid rgb(123, 202, 242);
+}
+
+.navbar ul {
+    font-size: 0.75em;
+    list-style-type: none;
+    background-color: hsl(0, 0%, 25%);
+    padding: 0%;
+    margin: 0%;
+    overflow: hidden;
+    display: flex;
+}
+
+.navbar a {
+    color: rgb(123, 202, 242);
+    font-weight: bold;
+    text-decoration: none;
+    padding: 1em 0.85em;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: rgb(26, 26, 26);
+}
+
+.navbar li {
+    flex-grow: 1;
+}
+
+.dropdown {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.dropdown button {
+    background-color: hsl(0, 0%, 25%);
+    color: rgb(123, 202, 242);
+    font-size: 0.75em;
+    font-weight: bold;
+    margin: 1em;
+    padding: 1em 5.5em 1em;
+    border: 0.125em solid rgb(123, 202, 242);
+    border-radius: 0.5em;
+}
+
+.dropdown a {
+    display: block;
+    color: rgb(123, 202, 242);
+    font-size: 0.75em;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0.5em 0.5em;
+}
+
+.dropdown .content {
+    display: none;
+    position: absolute;
+    top: 85%;
+    background-color: hsla(56, 80%, 76%, 0.842);
+    box-shadow: 3px 3px 5px rgb(123, 202, 242);
+    margin: 0em 0.9em 0.5em;
+}
+
+.dropdown:hover .content {
+    display: block;
+}
+
+.dropdown:hover button {
+    background-color: hsla(0, 0%, 25%, 0.486);
+    color: black;
+}
+
+.dropdown a:hover {
+    background-color: hsl(0, 0%, 25%);
+}
+
+/* main section styles */
+
+#hero-band-photo {
+    display: block;
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5%;
+}
+
+.band-member-name-top {
+    color: rgb(123, 202, 242);
+    font-weight: bold;
+}
+
+/* flexing the flexbox to align it, cause it`s annoying AF */
+
+#a-ha-fig-align-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#take-on-me-youtube-link {
+    font-size: 1em;
+    padding: 1em 0em;
+    margin-bottom: 1em;
+    text-align: center;
+    text-decoration: none;
+}
+
+#a-ha-video {
+    width: 95vw;
+    border-radius: 5%;
+}
+
+a {
+    text-decoration: none;
+}
+
+a,
+a:visited {
+    color: rgb(123, 202, 242);
+    font-weight: bold;
+}
+
+p {
+    font-size: calc(1em 1vw);
+    color: aliceblue;
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+.main-section-media {
+    display: block;
+    max-width: 75%;
+    border-radius: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+figcaption {
+    margin-top: 1%;
+    text-align: center;
+    color: aliceblue;
 }
 
 /* footer styling */
