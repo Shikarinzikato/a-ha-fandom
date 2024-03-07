@@ -1,2 +1,32 @@
 /* default styling is set for mobile devices, based off of "galaxy fold" */
 
+/* styles that are applied no matter what * */
+* {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: rgb(74, 74, 76);
+}
+
+/* footer styling */
+
+footer {
+    margin: 0% 1%;
+    text-align: center;
+}
+
+footer a {
+    color: rgb(123, 202, 242);
+    text-decoration: none;
+}
+
+#contact-section-text {
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+
+.footer-section-styling-author {
+    font-weight: bold;
+    text-align: center;
+    color: rgb(123, 202, 242);
+}
