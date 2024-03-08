@@ -14,11 +14,13 @@
     <meta name="author" content="Ramzan Derbishev (aka Shikarinzikato)">
 
     <title>a-ha Fandom</title>
+    <!-- icon, rel, type, url -->
     <link rel="icon" type="image/x-icon" href="assets/images-videos/tab-icon.png">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
+    <!-- where content that is visible on all pages goes, atleast for my website -->
     <header>
         <h1><b>a-ha</b><br>Fandom</h1>
         <nav class="navbar" aria-label="Main navigation menu with options: Home, About, Gallery, Feedback Form">
@@ -31,10 +33,13 @@
         </nav>
     </header>
 
+    <!-- main section -->
     <main>
+        <!-- subsection, many more below -->
         <section class="dropdown" aria-label="Table of Contents dropdown menu">
             <button>Table of Contents</button>
             <div class="content">
+                <!-- links with aria-labels -->
                 <a aria-label="Takes user to the Hunting High and Low section on the same page"
                     href="#hunting-hign-and-low">Hunting High and Low (1984-1986)</a>
                 <a aria-label="Takes user to the Golden Age section on the same page" href="#golden-age">Golden Age
@@ -62,7 +67,8 @@
                     Contact Us</a>
             </div>
         </section>
-
+        
+        <!-- aria-labelledby because sections need headings, found out through html validator -->
         <section id="band-introduction-and-history" aria-labelledby="band-introduction-and-history-heading">
             <h2 id="band-introduction-and-history-heading">Band Introduction and History</h2>
             <figure>
@@ -210,7 +216,6 @@
                 marking its 25th anniversary and 50 years on Norway's hit list.
             </p>
         </section>
-
 
         <section id="new-direction-and-farewell" aria-labelledby="new-direction-and-farewell-heading">
             <h2 id="new-direction-and-farewell-heading">New Direction and Farewell (2008-2010)</h2>
@@ -407,6 +412,7 @@
 
         <section aria-labelledby="tour-list-h3">
             <h3 id="tour-list-h3">World Tours</h3>
+            <!-- articles i.e., smaller text subsections inside sections -->
             <article aria-labelledby="tour-list">
                 <h4 id="tour-list">Tour History</h4>
                 <p>
@@ -417,6 +423,7 @@
                     the globe.
                 </p>
             </article>
+            <!-- ordered list to display tour history from beginning to current end -->
             <ol id="world-tour-ol">
                 <li>World Tour <span class="world-tour-li-year-highlight">(1986–1987)</span> Encompassing the US,
                     Canada, Europe, Australia, and Japan.</li>
@@ -468,8 +475,10 @@
 
     <hr>
 
+    <!-- footer goes here, aka contact info and appropriately placed links, social media or in my case e-mail and feedback-form-link -->
     <footer>
         <h2 id="contact">Contact</h2>
+        <!-- address, houses the addresses like e-mail or generally just contact info -->
         <address class="contact-section-text">
             <p class="text-align-center">Send us an E-Mail:</p>
             <a aria-label="Opens default email app, to compose a new message."

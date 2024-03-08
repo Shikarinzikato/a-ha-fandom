@@ -247,7 +247,9 @@ The live link can be found here - https://shikarinzikato.github.io/a-ha-fandom/i
 
 ## Content 
 
-- All text content on this site has been produced by the author of the project and is based on real events by data found on wikipedia. 
+- All text content on this site has been produced by the author of the project and is based on real events by data found on wikipedia.
+- Wikipedia Link from where the text content was borrowed: https://en.wikipedia.org/wiki/A-ha 
+- The text has been rewritten and summarized via the use of microsoft copilot which helped me avoid text overload and help with spacing.
 - The design of the project is inspired a project of spontaneous decisions and completely unplanned. Some code has been borrowed from Bro Code to assist with styling inputs for the feedback-form.
 Line: 282 - 284 in style.css
 - The icon displayed in the browser tab is taken from 
@@ -261,12 +263,20 @@ Line: 282 - 284 in style.css
 
   ![Screenshot of creative commons license](/assets/readme.md-media/creative-commons-screenshot-confirmation.png)
 
+## Plagiarism DISCLAIMER
+- Thank you for feedback text, 404 text and other similar paragraphs have been written for me by chat GPT.
+- Even though the commits happened in a very short span, if you check my repositories, you will find I transferred a lot of my work that has already been done weeks in advance, all this workspace enabled me to do is to commit to concise and regular commits from the start, and show that I have an understanding of the process.
+- My public Repositories:
+- https://github.com/Shikarinzikato/portfolio-project-1
+- https://github.com/Shikarinzikato/1.portfolio-project
+
 ## Credits 
 
 ### For code inspiration, design inputs, help and advice. Many thanks to:
 
 Martina Terlevic (Mentor)
  - Fantastic Coach and Mentor, guided me without giving me easy solutions, encouraging me to solve instead of relying on the easy way out! Huge Thanks to her for treating me like a real junior dev!
+ - Many things like header, footer, form styling also learned from her courses!
 
 Lewis (Tutor Support)
 - Helped me find out why I haven`t seen changes in my style.css file after editing and trying everything I can to fix the issue for 3 hours, just to find to find out I have worked on a 2nd copy of the style.css that I accidentally created. Damn these fingers of mine... and thanks to Lewis who helped me find the problem.
