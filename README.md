@@ -1,6 +1,6 @@
 # aha-Fandom
 
-![Responsive Design Confirmation](assets/readme.md-media/responsive-design-confirmation.png)
+![Responsive Design Confirmation](/assets/readme.md-media/responsive-design-confirmation.png)
 
 # The purpose with this project
 
@@ -52,38 +52,6 @@ CSS Validator: https://jigsaw.w3.org/css-validator/
 ## Live Project Version
 A live version of the project can be found here - https://shikarinzikato.github.io/a-ha-Fandom/
 
-# Table of Content
-
-+ [UX](#ux "UX")
-  + [User Demographic](#user-demographic "User Demographic")
-  + [User Stories](#user-stories "User Stories")
-    + [Existing Members](#existing-members "Existing Members")
-    + [New Users](#new-users "New Users")
-  + [User Goals](#user-goals "User Goals")
-  + [Requirements](#requirements "Requirements")
-  + [Design](#design "Design")
-    + [Colours](#colours "Colours")
-    + [Typography](#typography "Typography")
-    + [Images](#images "Images")
-+ [Features](#features "Features")
-  + [Existing Features](#existing-features "Existing Features")
-    + [Header and Navigation Section](#header-and-navigation-section "Header and Navigation Section")
-    + [Hero Header Section](#hero-header-section "Hero Header Section")
-    + [About us Section](#about-us-section "About us Section")
-    + [2022 Events Section](#2022-events-section "2022 Events Section")
-    + [Contact and Registration Section](#contact-and-registration-section "Contact and Registration Section")
-    + [Footer Section](#footer-section "Footer Section")
-    + [Form-dump page](#form-dump-page "Form-dump page")
-  + [Features Left to Implement](#features-left-to-implement "Features Left to Implement")
-+ [Technologies used](#technologies-used "Technologies used")
-+ [Testing](#testing "Testing")
-  + [Validator Testing](#validator-testing "Validator Testing")
-  + [Unfixed Bugs](#unfixed-bugs "Unfixed Bugs")
-+ [Development and Deployment](#development-and-deployment "Development and Deployment")
-+ [Content](#content "Content")
-+ [Media](#media "Media")
-+ [Credits](#credits "Credits")
-
 ## UX
 
 ### User Demographic
@@ -132,13 +100,9 @@ Arial and sans-serif, are placed to be fallbacks, should Helvetica fail to work.
 
 Media has been chosen to limit text induced fatigue aswell as fit the space they are placed in, some sections have images that are from the time period mentioned. Media has been sized and has been given a border radius to make it in my opinion flow better with the design.
 
-Each piece of media
-
-[Back to top](#a-ha-fandom)
-
 ## Structure and Feautures 
 
-The a-ha Fandom website is a 6 page website, pages listed below with their individual sections:
+The a-ha Fandom website is a 6 page website.
 
 ### index.html consists of following section:
  - Header (Logo/Navmenu)
@@ -162,13 +126,7 @@ The a-ha Fandom website is a 6 page website, pages listed below with their indiv
 
  For quick navigation to a preferred section the dropdown button is placed below the navbar.
 
- Each image is wrapped inside a fig with a figcaption. (Figure on Line: 68-71 has no caption since intro text is right below it)
-
- ### about.html
-
-
-### Proof of Code Understanding:
-Header, contains content which is most of the time displayed on all pages.
+ Each image is wrapped inside a fig with a figcaption. (Figure on Line: 68-71 has no caption since intro text is right below it... avoiding redundancy)
 
 ### Existing Features
 
@@ -176,59 +134,38 @@ Header, contains content which is most of the time displayed on all pages.
 
   - Text based Logo centered horizontally with slight margins and padding which allows font-calc to be properly executed and makes the less likely to overlap.
   - Menu items are anchored to pages on the same website.
-![Header: Logo and Navbar, separate from each other inside the header. Both adjust automatically to screen size increase, a media query has been written for screens with a max-width of 363px to adjust the font-scaling appropriately for even smaller screens.](assets/readme.md-media/logo-and-header-confirmation.png)
+![Header: Logo and Navbar, separate from each other inside the header. Both adjust automatically to screen size increase, a media query has been written for screens with a max-width of 363px to adjust the font-scaling appropriately for even smaller screens.](/assets/readme.md-media/logo-and-header-confirmation.png)
 
-#### Hero Header Section
+#### Feedback-form
 
-  - The Hero Header section contains a Hero Image, header and a paragraph.
-  - The section will give user a sense of home grown tomatoes and comfort. The section also contains a header and a paragraph that gives the user a clear message on what this website is about.
+  - The purpose of this section is to make feedback as easy as possible. The feedback can be given completely anonymously, feedback categories are in place to help sort feedback. The User can use the form to give feedback, text-area for feedback has a required attribute to limit potential spam. 
+  
+  If the form is used in this version it sends the User to a form-dump page with a message.
 
-![Hero Header Section](/assets/images/readme-images/hero-header-section.jpg)
-
-#### About us Section
-
-  - The about us sections is divided in two parts. One informative part with a longer paragraph next to an image with the founder. The second part consists of three images each with a short paragraph on the bottom.
-  - The purpose of the About Us section is to give Users a feel of what NTS is and why it was founded. It also gives the User an idea on what happens on events and gatherings. The images gives a comforting feel.
-
-About Us - Image 1
-
-![About us Section part 1](/assets/images/readme-images/about-us-section-1.jpg)
-
-About Us - Image 2
-
-![About us Section part 2](/assets/images/readme-images/about-us-section-2.jpg)
-
-#### 2022 Events Section
-
-  - This section contains a header and three information boxes. The information boxes contains an image and a paragraph.
-  - The purpose of this section is to give the User an understanding on what type of events NTS is providing to its members. Each event has a picture that shows something related to the event type so that it increases the Users curiosity.
-
-![2022 Events Section](/assets/images/readme-images/2022-events-section.jpg)
-
-#### Contact and Registration Section
-
-  - The section contains a registration form and contact details to NTS. It also has a map that displays the location to NTS.
-  - The purpose of this section is to make contact and registration as easy as possible. The User uses the form to sign up as a member or to register interest. In order to establish direct contact as easy as possible the section also provides the User with a telephone number and an email. If the form is used in this version it sends the User to a form-dump page with a message.
-
-![Contact and Registration Section](/assets/images/readme-images/contact-registration-section.jpg)
+![Feedback Form](/assets/readme.md-media/feedback-form-confirmation.png)
 
 #### Footer Section
 
-  - The Footer contains four social media links (Facebook, Twitter, YouTube and Instagram) The code for the Footer is borrowed from the Love Running - Project.
-  - The purpose of the Footer is to provide easy access for the User to the different social media platforms were Nacka Tomato Society has a presence.
+  - The Footer contains contact info like links to the e-mail address that either takes you to your default e-mail app or can be manually copied and pasted, the feedback form takes the user to feedback-form.html
 
-![Footer](/assets/images/readme-images/footer-section.png)
+![Footer](/assets/readme.md-media/footer-section-confirmation.png)
 
 #### Form-dump page
 
-  - This site contains a message when the form has been used.
+  - This site contains a thank-you-for-feedback.html with a thank you message when the form has been used and everything executed correctly.
   - The purpose of this page is to give the user an indication on that the form is working and that the message has been recived.
 
-![Form-dump page](/assets/images/readme-images/form-dump-page.jpg)
+![Form-dump page](/assets/readme.md-media/form-dump-page-confirmation.png)
+
+### Error 404
+  - error-404.html has been added as a proof of concept as per Mentor advice, no logic is in place for it.
+
 
 ### Features Left to Implement
 
-- Later versions of this project will contain a member section were members can upload inspirational images.
+- Make nav and dropdown stick to the top of the page or add a small separate button that takes the user back to the top of the page to save precious screen area, since the font-size a
+- Figure out make the dropdown button, only appear when the button itself is hovered. I coded and moved on too fast from the dropdown button in other words, i`ve coded myself into a corner on this one, will figure it out and comeback to fix the issue later on!
+- Increase social media presence! a-ha fandom has no social media accounts yet. (Didn`t want to make fake accounts)
 
 [Back to top](#nacka-tomato-society)
 
@@ -243,28 +180,16 @@ Test of functionality and appearance of the website has been dealt with through 
 
 Test has been conducted using Google Chrome, Opera GX. Testing different devices and screen resolutions has been conducted using Google Chrome DevTools.
 
-Listed are issues, that either still need a fix or .
+Listed are issues, that either still need a fix or have been solved.
 
-1. Top menu disappears even though its fixed.
- - Solution: Had to use z-index to keep the menu on top of all sections and elements, value set to 20
-2. Data sent from contact form was not correct when tested towards a form-dump site (https://jkorpela.fi/cgi-bin/echo.cgi).
- - Solution: The name attribute in the input tags were not correct.
-3. Text alignment in input fields were not correct and it differed between Safari and Chrome.
- - Solution: Corrected by adding text-alignment in style.css.
-4. Hero-Header image fades out in different resolutions and looks bad.
- - Solution: Created three versions of the Hero-Header image that changes depending on resolution.
-5. When tested in Lighthouse the website received a low score on performance, 72. The reason for this was that some images did not contain proper attributes for width and height.
- - Solution: Added values for height and width to images and score increased to 98
-6. Poor performance on smaller screens. About Us and 2022 Events sections did not place them selfs properly.
- - Solution: Solved this by using media queries and now the elements are displayed as they should.
-7. Menu not properly aligned with header on small screens and it gets cropped and divided.
- - Solution: Added new values in the existing media queries.
-8. Menu still gets cropped on screens with resolutions below 320px. It looks good using Google DevTools but not on a physical device
- - Solution: Solved 20220325 - Removed from Unfixed bugs. Changed View Port Width on fonts in menu.
-9. Images in the 2022 Events section are slightly out of alignment on low resolution screens.
- - Solution: Solved 20220325 - Removed from Unfixed bugs. Changed View Port Width on fonts in menu. Changes to CSS under correct Media Query corrected this.
+1. Font-size calc adjusted to make font even more readably, heavy focus on older people, for ease of readability.
+ - Solution: increased and in some cases reduced em to vw ratio for font-size calc (Nav, Dropdown, p, figcaptions, footer, etc all have different font-size calc to maintain some design flow)
+2. Some Images appeared pixelated when stretched across different screen sizes
+ - Solution: Max-width attribute instead of vw solved the problem.
+3. Poor performance on screens with a width smaller than 363px.
+ - Solution: Solved this by using media queries and now the elements like navbar fit into their boxes without overflowing and disrupting the intended design and are now shown appropriately.
 
-Apart from these issues there have been several minor issues. The majority of these has been due to miss spelled tags, attributes and other misstakes. The first test in the W3C Validator pointed on 8 different things. 6 of them were connected to the Iframe used to display the Map from Google in the Contact section. The errors were easily corrected.
+Apart from standard code issues there have been a lot of minor issues. The majority of these has been due to sections and articles missing headings, misuse of alt attributes for non-image elements, this I also fixed via use of ARIA-Labels like (aria-label, aria-labelledby).
 
 ### Validator Testing 
 
@@ -294,8 +219,10 @@ Line: 282 - 284 in style.css
 ## Media
 
 - All images are downloaded from Wikipedia and Google with creative commons license filter enabled, this allows usage for public purposes.
+[Link to images found on wikipedia](https://en.wikipedia.org/wiki/A-ha)
+- [Link for creative commons license on google](https://elements.envato.com/license-terms)
 
-- [Link to license agreement](https://elements.envato.com/license-terms)
+![Screenshot of creative commons license](creative-commons-screenshot-confirmation.png)
 
 ## Credits 
 
