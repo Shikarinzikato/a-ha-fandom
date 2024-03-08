@@ -91,6 +91,11 @@ Dropdown Menu let`s users quickjump to the section they are interested in.
 
 Colour palette was what I thought would look good and contrast well between each other. I am happy with how it turned out and lighthouse seems happy  too with a score of 95 for accessibility.
 
+Colors used are:
+
+rgb(74, 74, 76);
+rgb(123, 202, 242);
+
 #### Typography
 
 Helvetica is the main font.
@@ -222,7 +227,7 @@ Line: 282 - 284 in style.css
 [Link to images found on wikipedia](https://en.wikipedia.org/wiki/A-ha)
 - [Link for creative commons license on google](https://elements.envato.com/license-terms)
 
-![Screenshot of creative commons license](creative-commons-screenshot-confirmation.png)
+![Screenshot of creative commons license](/assets/readme.md-media/creative-commons-screenshot-confirmation.png)
 
 ## Credits 
 
@@ -254,6 +259,4 @@ And all the content in HTML-Essentials, CSS-Essentials and the Walkthrough proje
 The screenshot showcasing responsive design was made by:
 https://ui.dev/amiresponsive?url=https://shikarinzikato.github.io/a-ha-fandom/
 
-Best regards
-
-[Back to top](#a-ha-fandom)
+Best Wishes mi Amigos
