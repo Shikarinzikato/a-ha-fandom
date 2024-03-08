@@ -1,4 +1,4 @@
-
+/* general styles, visible across all pages */
 * {
     font-family: Helvetica, Arial, sans-serif;
     background-color: rgb(74, 74, 76);
@@ -12,6 +12,7 @@ main {
     margin: 0% 5%;
 }
 
+/* Logo styles */
 h1 {
     text-align: center;
     color: rgb(123, 202, 242);
@@ -22,12 +23,14 @@ h1 {
     font-size: calc(1em + 1vw);
 }
 
+/* header styles */
 h2, h3, h4 {
     font-size: calc(0.75em + 1vw);
     color: rgb(123, 202, 242);
     text-align: center;
 }
 
+/* navbar styles */
 .navbar ul {
     font-size: calc(0.75em + 1vw);
     list-style-type: none;
@@ -61,7 +64,7 @@ h2, h3, h4 {
     border-bottom: 0.5em solid rgb(123, 202, 242);
 }
 
-
+/* dropdown-menu styles */
 .dropdown {
     display: flex;
     flex-direction: column;
@@ -110,6 +113,7 @@ h2, h3, h4 {
     background-color: rgb(97, 97, 97);
 }
 
+/*  */
 #hero-band-photo {
     display: block;
     max-width: 95%;
@@ -127,6 +131,7 @@ h2, h3, h4 {
     font-weight: bold;
 }
 
+/* aligns all figcaptions vertically and horizontally, to appear right below the img in the figure */
 #a-ha-fig-align-center {
     display: flex;
     flex-direction: column;
@@ -140,6 +145,7 @@ h2, h3, h4 {
     border-radius: 5%;
 }
 
+/* link styles to have no decoration */
 a {
     text-decoration: none;
 }
@@ -162,6 +168,7 @@ p {
     text-align: center;
 }
 
+/* styles images to have max-width and to not appear stretched even if on bigger screens */
 .main-section-media {
     display: block;
     max-width: 75%;
@@ -169,6 +176,7 @@ p {
     margin-left: auto;
     margin-right: auto;
 }
+
 
 figcaption {
     font-size: calc(0.75em + 1vw);
@@ -186,6 +194,8 @@ figcaption {
     text-align: center;
 }
 
+/* same as with main-media but smaller max-width */
+
 .band-member-img {
     display: block;
     max-width: 50%;
@@ -200,6 +210,7 @@ figcaption {
     margin-right: auto;
 }
 
+/* ordered-list styles on index.html */
 #world-tour-ol {
     line-height: 1.5em;
 }
@@ -219,6 +230,7 @@ figcaption {
     list-style: none;
 }
 
+/* media styling for gallery.html */
 .gallery {
     min-width: 75%;
     max-width: 95%;
@@ -228,6 +240,7 @@ figcaption {
     margin-right: auto;
 }
 
+/* feedback-form styling */
 #feedback-form {
     width: 75%;
     margin: 0 auto;
@@ -241,7 +254,7 @@ figcaption {
 }
 
 .input-styles {
-    font-size: calc(0.75em + 1vw);
+    font-size: calc(0.25em + 1vw);
     color: tomato;
     font-weight: bold;
     background-color: aliceblue;
@@ -258,10 +271,12 @@ figcaption {
     width: 100%;
 }
 
+/* input styles to take full available width, padding is in place to prevent "overflow" */
 input[type="text"], input[type="email"], textarea, input[type="file"] {
     width: 100%;
 }
 
+/* footer styles */
 footer {
     margin: calc(1em + 1vw);
     text-align: center;
@@ -285,7 +300,7 @@ footer a {
     color: rgb(123, 202, 242);
 }
 
-
+/* media query for even-smaller screen sizes (font-size calc related adjustment to fit all navbar content */
 @media only screen and (max-width: 363px) {
     .navbar ul {
         font-size: calc(0.5em + 1vw);

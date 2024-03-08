@@ -47,7 +47,7 @@ HTML Validator: https://validator.w3.org/
 CSS Validator: https://jigsaw.w3.org/css-validator/
 
 ## Live Project Version
-A live version of the project can be found here - https://shikarinzikato.github.io/a-ha-Fandom/
+A live version of the project can be found here - https://shikarinzikato.github.io/a-ha-fandom/
 
 ## UX
 
@@ -75,7 +75,7 @@ Used Languages: HTML, CSS
 This being my first project, I guess I got inspired by Love Running at first but, as I added pages I shifted the design and came up with what I thought was best.
 
 Design is mainly centered on mobile devices and elderly users or people with bad sight.
-Nonetheless to show that the site adjusts well to any increase you will see below screenshot featuring different screen sizes, ipad air, 1920x1080, 1280x720 and of course galaxy fold. Captured with snipping tool on windows, screensizes viewed with chrome dev tools.
+Nonetheless to show that the site adjusts well to any increase you will see below screenshot featuring different screen sizes, ipad air, surface pro 7, FHD laptops = 1920x1080, HD laptops = 1280x720 and of course galaxy fold. Captured with snipping tool on windows, screensizes viewed with chrome dev tools.
 
 #### Planning
 
@@ -158,15 +158,15 @@ The a-ha Fandom website is a 6 page website.
 
   - Dropdown items are anchored to content on the same page, self adjusting to size for screen size increase.
     screen-size reduction below 363px is handled by a media-query.
-  - Content drops right below the button, finetuned by padding in css.
-    ![](/assets/readme.md-media/dropdown-button-content-screenshot.png)
+  - Dropdown content drops right below the button, finetuned by padding in css.
     ![dropdown-button-content-screenshot](/assets/readme.md-media/dropdown-button-content-screenshot.png)
 
 #### Feedback-form
 
   - The purpose of this section is to make feedback as easy as possible. The feedback can be given completely anonymously, feedback categories are in place to help sort feedback. The User can use the form to give feedback, text-area for feedback has a required attribute to limit potential spam. 
   If the form is used in this version it sends the User to a form-dump page with a message.
-  ![Feedback Form](/assets/readme.md-media/feedback-form-confirmation.png)
+  ![feedback-form](/assets/readme.md-media/feedback-form-confirmation.png)
+  ![feedback-form-options](/assets/readme.md-media/feedback-form-options.png)
 
 #### Footer Section
 
@@ -181,7 +181,7 @@ The a-ha Fandom website is a 6 page website.
 
 ### 404.html
   - 404.html has been added as a proof of concept as per Mentor advice, no logic is in place for it.
-    ![Error-404-confirmation](/assets/readme.md-media/error-404-confirmation.png)
+    ![404-confirmation](/assets/readme.md-media/error-404-confirmation.png)
 
 ### Features Left to Implement
 
@@ -233,6 +233,12 @@ Apart from standard code issues there have been a lot of minor issues. The major
 ## Development and Deployment
 
 The development environment used for this project was GitPod. To track the development stage and handle version control regular commits and pushes to GitHub has been conducted. The GitPod environment was created using a template provided by Code Institute.
+
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+
+    In the GitHub repository, navigate to the Settings tab
+    From the source section drop-down menu, select the Master Branch
+    Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
 Live Server Extension was also used to smoothen the development.
 
