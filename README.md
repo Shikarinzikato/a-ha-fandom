@@ -1,8 +1,6 @@
-![alt text](assets/readme.md-media/responsive-design-confirmation.png)
+# aha-Fandom
 
-# a-Fandom
-
-![Responsive screenshot](/assets/images/readme-images/responsiv-screenshot.jpg)
+![Responsive Design Confirmation](assets/readme.md-media/responsive-design-confirmation.png)
 
 # The purpose with this project
 
@@ -42,7 +40,7 @@ header + 1 section + footer
 The target audience is everyone who is a fan of a-ha and wants to contribute in any way, from reporting inconsistencies, to providing on work that has been done and what needs to be improved.
 
 ## Personal Note
-This is my first project, although a third or forth or fifth attempt implementing it like a seasoned software dev would. 
+This is my first project, although a third or forth or fifth attempt implementing it like a seasoned software dev would. I.e., making regular and concise commits. 
 
 ## Requirements
 As per requirements i`ve made sure my code has been checked by HTML and CSS validators.
@@ -101,8 +99,9 @@ This website is meant for:
 
 ### Requirements
 
-A static responsive website that allows me to demonstrate my learnings so far, which contains some basic functionality combined with semantic code.
-The development process has been well documented, by regular and concise commits via GitHub.
+A static responsive website that allows me to demonstrate my learnings so far, which contains some basic functionality combined with high-focus on the use of semantic coding style to enhance accessibility, i.e., use of sections, articles, limiting/reducing the use of non descriptive elements like divs.
+
+The development process has been well documented, by regular and concise commits via GitHub. (Maybe 1 or 2 larger commits..)
 
 Used Languages: HTML, CSS
 
@@ -112,12 +111,13 @@ This being my first project, I guess I got inspired by designs I have seen throu
 I guess the design is something that seemed intuitive for me and what came about throughout the development stage.
 
 I initially planned a single page website with multiple sections but then decided to challenge myself with adding multiple pages, to improve my ability to track and implement changes across them and style multiple pages as well as large sections, navbars, dropdowns and footers at the same time.
-
 The goal was to create a simple well contrasted website that combines accessibility with design, without sacrificing the other. I am excited to see how well I fared in that regard, the lighthouse test gave me a 95, so in that regard I am positive.
 
 a-ha Fandom is a 6 page website divided into sections fitting their content appropriately. Some pages like index.html feature the largest sections.
 
-Navbar highlights the current page the user is on and Dropdown Menu let`s users quickjump to the section they are interested in.
+Navbar highlights the current page the user is on.
+
+Dropdown Menu let`s users quickjump to the section they are interested in.
 
 #### Colours
 
@@ -132,29 +132,51 @@ Arial and sans-serif, are placed to be fallbacks, should Helvetica fail to work.
 
 Media has been chosen to limit text induced fatigue aswell as fit the space they are placed in, some sections have images that are from the time period mentioned. Media has been sized and has been given a border radius to make it in my opinion flow better with the design.
 
+Each piece of media
+
 [Back to top](#a-ha-fandom)
 
-## Features 
+## Structure and Feautures 
 
-The Nacka Tomato Society website is a single page website that consists of these sections:
+The a-ha Fandom website is a 6 page website, pages listed below with their individual sections:
 
- - Header (Logo/Menu)
- - Hero Header
- - About Us
- - 2022 Events
- - Contact and Registration
- - Footer
+### index.html consists of following section:
+ - Header (Logo/Navmenu)
+ - Dropdown
+ - Band-Introduction-and-History
+ - Hunting High and Low (1984 - 1986)
+ - Golden Age (1986-1994)
+ - First Comeback (1994 - 2007)
+ - New Direction and Farewell (2008 - 2010)
+ - Post a-ha Activities and Second Comeback 
+ - MTV Unplugged and Hunting High and Low Tours
+ - Return After COVID-19 Pandemic and True North (2022-Present)
+ - Their Legacy
+ - Awards and Band Members
+ - Band Members (3 articles, each member has their own article)
+ - Discography and World Tours
+ - World Tours (ordered List)
+ - Footer (Use of Address to further improve on accessibility)
 
-In order to make navigation easier between the sections the navigation bar is fixed on top when the user scrolls thru the page.
+ In order to make navigation easier between the pages a navbar is placed at the top of the screen, also the active nav page has a bottom border indicating which page the user is on.
+
+ For quick navigation to a preferred section the dropdown button is placed below the navbar.
+
+ Each image is wrapped inside a fig with a figcaption. (Figure on Line: 68-71 has no caption since intro text is right below it)
+
+ ### about.html
+
+
+### Proof of Code Understanding:
+Header, contains content which is most of the time displayed on all pages.
 
 ### Existing Features
 
 #### Header and Navigation Section
 
-  - The Header consists of a Logo section, text-based, that is aligned to the right and a Menu that is aligned to the left.
-  - The Header is at a fixed position on top and follows the user as the user scrolls down the page. Menu items are anchored to sections on the website.
-
-![Header and navigation](/assets/images/readme-images/header-section.png)
+  - Text based Logo centered horizontally with slight margins and padding which allows font-calc to be properly executed and makes the less likely to overlap.
+  - Menu items are anchored to pages on the same website.
+![Header: Logo and Navbar, separate from each other inside the header. Both adjust automatically to screen size increase, a media query has been written for screens with a max-width of 363px to adjust the font-scaling appropriately for even smaller screens.](assets/readme.md-media/logo-and-header-confirmation.png)
 
 #### Hero Header Section
 

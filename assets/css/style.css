@@ -1,6 +1,4 @@
-/* default styling is set for mobile devices, based off of "galaxy fold" */
 
-/* styles that are applied no matter what * */
 * {
     font-family: Helvetica, Arial, sans-serif;
     background-color: rgb(74, 74, 76);
@@ -30,8 +28,6 @@ h2, h3, h4 {
     text-align: center;
 }
 
-/* navbar & dropdown styles */
-
 .navbar ul {
     font-size: calc(0.75em + 1vw);
     list-style-type: none;
@@ -51,7 +47,6 @@ h2, h3, h4 {
     text-align: center;
 }
 
-/* prettier with a border */
 .navbar a:hover {
     background-color: rgb(26, 26, 26);
     border-bottom-left-radius: 25%;
@@ -66,7 +61,6 @@ h2, h3, h4 {
     border-bottom: 0.5em solid rgb(123, 202, 242);
 }
 
-/* dropdown menu styles */
 
 .dropdown {
     display: flex;
@@ -116,8 +110,6 @@ h2, h3, h4 {
     background-color: rgb(97, 97, 97);
 }
 
-/* main section styles */
-
 #hero-band-photo {
     display: block;
     max-width: 95%;
@@ -134,8 +126,6 @@ h2, h3, h4 {
     color: rgb(123, 202, 242);
     font-weight: bold;
 }
-
-/* flexing the flexbox to align it, cause it`s annoying AF */
 
 #a-ha-fig-align-center {
     display: flex;
@@ -188,12 +178,9 @@ figcaption {
     color: tomato;
 }
 
-/* unique fig style for a-ha-video */
 #take-on-me-youtube-link {
     color: tomato;
 }
-
-/* band section styles */
 
 .singer-description {
     text-align: center;
@@ -232,8 +219,6 @@ figcaption {
     list-style: none;
 }
 
-/* only used in gallery.html */
-
 .gallery {
     min-width: 75%;
     max-width: 95%;
@@ -242,8 +227,6 @@ figcaption {
     margin-left: auto;
     margin-right: auto;
 }
-
-/* feedback-system-related styles */
 
 #feedback-form {
     width: 75%;
@@ -258,16 +241,12 @@ figcaption {
 }
 
 .input-styles {
-    /* input field font-color and weight */
     font-size: calc(0.75em + 1vw);
     color: tomato;
     font-weight: bold;
-    /* background color for all inputs */
     background-color: aliceblue;
 }
 
-
-/* single option styles */
 .feedback-form-option-styling {
     color: tomato;
     font-weight: bold;
@@ -282,8 +261,6 @@ figcaption {
 input[type="text"], input[type="email"], textarea, input[type="file"] {
     width: 100%;
 }
-
-/* footer styles */
 
 footer {
     margin: calc(1em + 1vw);
@@ -308,10 +285,9 @@ footer a {
     color: rgb(123, 202, 242);
 }
 
-/* media query for screens with a max width of 363px */
+
 @media only screen and (max-width: 363px) {
     .navbar ul {
-        /* original value = font-size: calc(0.75em + 1vw) */
         font-size: calc(0.5em + 1vw);
     }
 
