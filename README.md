@@ -6,35 +6,32 @@
 
 This static website was made to accommodate the needs of a-ha fans around the world, who want a prettier alternative to Wikipedia and other websites dedicated to preserving a-ha`s legacy. The a-ha-Fandom aims to attract more members to enjoy and contribute to making the best a-ha fan-site ever created. The site invites people to become volunteers and help build the a-ha Fandom. The language and layout of the site aims to be friendly, accessible and pretty at the same time.
 
-##The site consists of 6 pages.
-
-### Page count and build
+## Page count and build
 a-ha Fandom consists of 6 pages.
 
-#### index.html
+### index.html
 Contains 16 sections:
 header + 14 sections + footer
 
-#### about.html
+### about.html
 Contains 3 sections:
 header + 1 section + footer
 
-#### gallery.html
+### gallery.html
 Contains 3 sections:
 header + 1 section + footer
 
-#### feedback-form.html
+### feedback-form.html
 Contains 3 sections:
 header + 1 section + footer
 
-#### thank-you-for-feedback.html
+### thank-you-for-feedback.html
 Contains 3 sections:
 header + 1 section + footer
 
-### error-404.html
+### 404.html
 Contains 3 sections:
 header + 1 section + footer
-
 
 ## Target Audience
 The target audience is everyone who is a fan of a-ha and wants to contribute in any way, from reporting inconsistencies, to providing on work that has been done and what needs to be improved.
@@ -63,7 +60,7 @@ This website is meant for:
  - Visitors that want to become active contributors.
 
 ### User Goals
- - Find information regarding a-ha
+ - Find information regarding a-ha band, their history, current affairs, future tours, images, videos and so on!
 
 ### Requirements
 
@@ -75,11 +72,16 @@ Used Languages: HTML, CSS
 
 ### Design
 
-This being my first project, I guess I got inspired by designs I have seen through out the years, I couldn`t name any with a gun pointed at me.
-I guess the design is something that seemed intuitive for me and what came about throughout the development stage.
+This being my first project, I guess I got inspired by Love Running at first but, as I added pages I shifted the design and came up with what I thought was best.
+
+Design is mainly centered on mobile devices and elderly users or people with bad sight.
+Nonetheless to show that the site adjusts well to any increase you will see below screenshot featuring different screen sizes, ipad air, 1920x1080, 1280x720 and of course galaxy fold. Captured with snipping tool on windows, screensizes viewed with chrome dev tools.
+
+#### Planning
 
 I initially planned a single page website with multiple sections but then decided to challenge myself with adding multiple pages, to improve my ability to track and implement changes across them and style multiple pages as well as large sections, navbars, dropdowns and footers at the same time.
-The goal was to create a simple well contrasted website that combines accessibility with design, without sacrificing the other. I am excited to see how well I fared in that regard, the lighthouse test gave me a 95, so in that regard I am positive.
+The goal was to create a simple well contrasted website that combines accessibility with design, without sacrificing the other.
+I am excited to see how well I fared in that regard, the lighthouse test gave me a 95, so in that regard I am positive.
 
 a-ha Fandom is a 6 page website divided into sections fitting their content appropriately. Some pages like index.html feature the largest sections.
 
@@ -87,14 +89,24 @@ Navbar highlights the current page the user is on.
 
 Dropdown Menu let`s users quickjump to the section they are interested in.
 
+#### Proof of working sections
+![Hero-section](/assets/readme.md-media/hero-section.png)
+![Screenshot of hunting-high-and-low with active gif](/assets/readme.md-media/hunting-high-low.png)
+![Screenshot of golden age with video playing](/assets/readme.md-media/golden-age.png)
+
+All other sections are displayed in similar fashion.
+
 #### Colours
 
 Colour palette was what I thought would look good and contrast well between each other. I am happy with how it turned out and lighthouse seems happy  too with a score of 95 for accessibility.
 
-Colors used are:
+General elements like h1-h4, navbar, dropdown all feature similar colors. (Grey bg, blue font, dark grey when highlighted etc.)
 
-rgb(74, 74, 76);
-rgb(123, 202, 242);
+Text elements like p, ol, li, have a white color.
+
+Links are "lightblue", with some exceptions like the a-ha video figcaption.
+Figcaptions are "tomato".
+
 
 #### Typography
 
@@ -109,7 +121,8 @@ Media has been chosen to limit text induced fatigue aswell as fit the space they
 
 The a-ha Fandom website is a 6 page website.
 
-### index.html consists of following section:
+### Deconstructing the largest page
+#### index.html consists of following section:
  - Header (Logo/Navmenu)
  - Dropdown
  - Band-Introduction-and-History
@@ -141,6 +154,14 @@ The a-ha Fandom website is a 6 page website.
   - Menu items are anchored to pages on the same website.
   ![Header: Logo and Navbar, separate from each other inside the header. Both adjust automatically to screen size increase, a media query has been written for screens with a max-width of 363px to adjust the font-scaling appropriately for even smaller screens.](/assets/readme.md-media/logo-and-header-confirmation.png)
 
+#### Dropdown button and content
+
+  - Dropdown items are anchored to content on the same page, self adjusting to size for screen size increase.
+    screen-size reduction below 363px is handled by a media-query.
+  - Content drops right below the button, finetuned by padding in css.
+    ![](/assets/readme.md-media/dropdown-button-content-screenshot.png)
+    ![dropdown-button-content-screenshot](/assets/readme.md-media/dropdown-button-content-screenshot.png)
+
 #### Feedback-form
 
   - The purpose of this section is to make feedback as easy as possible. The feedback can be given completely anonymously, feedback categories are in place to help sort feedback. The User can use the form to give feedback, text-area for feedback has a required attribute to limit potential spam. 
@@ -158,8 +179,8 @@ The a-ha Fandom website is a 6 page website.
   - The purpose of this page is to give the user an indication on that the form is working and that the message has been recived.
     ![Form-dump page](/assets/readme.md-media/form-dump-page-confirmation.png)
 
-### Error 404
-  - error-404.html has been added as a proof of concept as per Mentor advice, no logic is in place for it.
+### 404.html
+  - 404.html has been added as a proof of concept as per Mentor advice, no logic is in place for it.
     ![Error-404-confirmation](/assets/readme.md-media/error-404-confirmation.png)
 
 ### Features Left to Implement
@@ -209,6 +230,15 @@ Apart from standard code issues there have been a lot of minor issues. The major
 
 ![Lighthouse testing score](assets/readme.md-media/lighthouse-validation-confirmation.png)
 
+## Development and Deployment
+
+The development environment used for this project was GitPod. To track the development stage and handle version control regular commits and pushes to GitHub has been conducted. The GitPod environment was created using a template provided by Code Institute.
+
+Live Server Extension was also used to smoothen the development.
+
+The live version of the project is deployed at GitHub pages.
+The live link can be found here - https://shikarinzikato.github.io/a-ha-fandom/index.html
+
 ## Content 
 
 - All text content on this site has been produced by the author of the project and is based on real events by data found on wikipedia. 
@@ -255,4 +285,4 @@ And all the content in HTML-Essentials, CSS-Essentials and the Walkthrough proje
 The screenshot showcasing responsive design was made by:
 https://ui.dev/amiresponsive?url=https://shikarinzikato.github.io/a-ha-fandom/
 
-Best Wishes mi Amigos
+Best Wishes from me, mi Amigos!
