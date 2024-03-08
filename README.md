@@ -296,7 +296,7 @@ https://www.codecademy.com/
 #### Bro Code, helped me, a fellow bro understand many concepts like flexbox better, thanks Bro!
 https://www.youtube.com/watch?v=HGTJBPNC-Gw&list=PLqZamzGcYQ24EnnCKEe7c415zFUMTlfE0&index=9&t=13099s
 
-And all the content in HTML-Essentials, CSS-Essentials and the Walkthrough project ”Love Running” that has provided essential knowledge.
+And all the content in HTML-Essentials, CSS-Essentials and the Walkthrough project ”Love Running” that has provided very important if not essential knowledge.
 
 The screenshot showcasing responsive design was made by:
 https://ui.dev/amiresponsive?url=https://shikarinzikato.github.io/a-ha-fandom/
