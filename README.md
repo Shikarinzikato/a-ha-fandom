@@ -139,37 +139,33 @@ The a-ha Fandom website is a 6 page website.
 
   - Text based Logo centered horizontally with slight margins and padding which allows font-calc to be properly executed and makes the less likely to overlap.
   - Menu items are anchored to pages on the same website.
-![Header: Logo and Navbar, separate from each other inside the header. Both adjust automatically to screen size increase, a media query has been written for screens with a max-width of 363px to adjust the font-scaling appropriately for even smaller screens.](/assets/readme.md-media/logo-and-header-confirmation.png)
+  ![Header: Logo and Navbar, separate from each other inside the header. Both adjust automatically to screen size increase, a media query has been written for screens with a max-width of 363px to adjust the font-scaling appropriately for even smaller screens.](/assets/readme.md-media/logo-and-header-confirmation.png)
 
 #### Feedback-form
 
   - The purpose of this section is to make feedback as easy as possible. The feedback can be given completely anonymously, feedback categories are in place to help sort feedback. The User can use the form to give feedback, text-area for feedback has a required attribute to limit potential spam. 
-  
   If the form is used in this version it sends the User to a form-dump page with a message.
-
-![Feedback Form](/assets/readme.md-media/feedback-form-confirmation.png)
+  ![Feedback Form](/assets/readme.md-media/feedback-form-confirmation.png)
 
 #### Footer Section
 
   - The Footer contains contact info like links to the e-mail address that either takes you to your default e-mail app or can be manually copied and pasted, the feedback form takes the user to feedback-form.html
-
-![Footer](/assets/readme.md-media/footer-section-confirmation.png)
+  ![Footer](/assets/readme.md-media/footer-section-confirmation.png)
 
 #### Form-dump page
 
   - This site contains a thank-you-for-feedback.html with a thank you message when the form has been used and everything executed correctly.
   - The purpose of this page is to give the user an indication on that the form is working and that the message has been recived.
-
-![Form-dump page](/assets/readme.md-media/form-dump-page-confirmation.png)
+    ![Form-dump page](/assets/readme.md-media/form-dump-page-confirmation.png)
 
 ### Error 404
   - error-404.html has been added as a proof of concept as per Mentor advice, no logic is in place for it.
-
+    ![Error-404-confirmation](/assets/readme.md-media/error-404-confirmation.png)
 
 ### Features Left to Implement
 
 - Make nav and dropdown stick to the top of the page or add a small separate button that takes the user back to the top of the page to save precious screen area, since the font-size a
-- Figure out make the dropdown button, only appear when the button itself is hovered. I coded and moved on too fast from the dropdown button in other words, i`ve coded myself into a corner on this one, will figure it out and comeback to fix the issue later on!
+- Figure out make the dropdown button, only appear when the button itself is hovered. I coded and moved on too fast from the dropdown button in other words, i`ve coded   myself into a corner on this one, will figure it out and comeback to fix the issue later on!
 - Increase social media presence! a-ha fandom has no social media accounts yet. (Didn`t want to make fake accounts)
 
 [Back to top](#nacka-tomato-society)
@@ -224,10 +220,10 @@ Line: 282 - 284 in style.css
 ## Media
 
 - All images are downloaded from Wikipedia and Google with creative commons license filter enabled, this allows usage for public purposes.
-[Link to images found on wikipedia](https://en.wikipedia.org/wiki/A-ha)
+  [Link to images found on wikipedia](https://en.wikipedia.org/wiki/A-ha)
 - [Link for creative commons license on google](https://elements.envato.com/license-terms)
 
-![Screenshot of creative commons license](/assets/readme.md-media/creative-commons-screenshot-confirmation.png)
+  ![Screenshot of creative commons license](/assets/readme.md-media/creative-commons-screenshot-confirmation.png)
 
 ## Credits 
 
@@ -254,7 +250,7 @@ https://www.codecademy.com/
 #### Bro Code, helped me, a fellow bro understand many concepts like flexbox better, thanks Bro!
 https://www.youtube.com/watch?v=HGTJBPNC-Gw&list=PLqZamzGcYQ24EnnCKEe7c415zFUMTlfE0&index=9&t=13099s
 
-And all the content in HTML-Essentials, CSS-Essentials and the Walkthrough project ”Love Running” that has provided inspiration and knowledge.
+And all the content in HTML-Essentials, CSS-Essentials and the Walkthrough project ”Love Running” that has provided essential knowledge.
 
 The screenshot showcasing responsive design was made by:
 https://ui.dev/amiresponsive?url=https://shikarinzikato.github.io/a-ha-fandom/
